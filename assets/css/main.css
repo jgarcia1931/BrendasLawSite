@@ -121,6 +121,21 @@ a, button {
   border-radius: 1rem;
 }
 
+.image-border2 {
+  background-color: #f1f3f6;
+  border-radius: 1.25rem;
+  box-shadow: 3px 3px 8px rgba(55, 84, 170, 0.1), -3px -3px 8px white;
+  padding: 5px;
+}
+
+.image-border2 img {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 1rem;
+}
+
 .title h2 {
   font-size: 3rem;
 }
