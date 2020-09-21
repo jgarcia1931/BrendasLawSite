@@ -121,6 +121,21 @@ a, button {
   border-radius: 1rem;
 }
 
+.image-border2 {
+  background-color: #f1f3f6;
+  border-radius: 1.25rem;
+  box-shadow: 3px 3px 8px rgba(55, 84, 170, 0.1), -3px -3px 8px white;
+  padding: 5px;
+}
+
+.image-border2 img {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 1rem;
+}
+
 .title h2 {
   font-size: 3rem;
 }
@@ -497,7 +512,7 @@ canvas.particles-js-canvas-el {
           HERO-02
 -------------------------*/
 .hero-02 {
-  background: url("http://placehold.it/1920x1280") no-repeat;
+  background: url("../img/journal-2850091_1280.jpg") no-repeat;
   background-size: cover;
   box-shadow: inset 0 0 0 2000px rgba(241, 243, 246, 0.5);
 }
