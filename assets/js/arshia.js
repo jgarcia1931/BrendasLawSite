@@ -35,12 +35,12 @@ $window.on("load", (function() {
     $("#overlayer").delay(500).fadeOut('slow');
     $(".loader").delay(1000).fadeOut('slow');
     portfolioIsotop();
-    headerSticky();
+    // headerSticky();
     ChangeColor();
 
 }));
 $window.on('scroll', function () {
-    headerSticky();
+    // headerSticky();
     skills();
     ChangeColor();
     
@@ -471,7 +471,7 @@ function BlogCarousel() {
         var lng = myMap.data("location-lng");
         var options = {
             center: new google.maps.LatLng(lat, lng),
-            zoom: 7,
+            zoom: 10,
             mapTypeControl: true,
             gestureHandling: 'cooperative',
             panControl: false,
@@ -602,7 +602,6 @@ function BlogCarousel() {
         var marker1 = new google.maps.Marker({
             position: map.getCenter(),
             title: $('title').text(),
-            icon: myMap.data("location-icon"),
             animation: google.maps.Animation.BOUNCE
         });
         marker1.setMap(map);
