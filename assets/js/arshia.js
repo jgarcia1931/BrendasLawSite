@@ -15,18 +15,18 @@ $(document).ready(function () {
 
     "use strict";
     
-    colorScheme();
+    // colorScheme();
     smoothScroll();
     bgBackground();
     colorFull();
     borderColor();
-    ColorPallet();
+    // ColorPallet();
     swiperSlider();
-    sliderOwlCarousel();
-    typedJS();
-    portfolioPopup();
-    clientCarousel();
-    BlogCarousel();
+    // sliderOwlCarousel();
+    // typedJS();
+    // portfolioPopup();
+    // clientCarousel();
+    // BlogCarousel();
     mapInit();
 
 });
