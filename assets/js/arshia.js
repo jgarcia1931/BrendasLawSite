@@ -471,7 +471,7 @@ function BlogCarousel() {
         var lng = myMap.data("location-lng");
         var options = {
             center: new google.maps.LatLng(lat, lng),
-            zoom: 10,
+            zoom: 11,
             mapTypeControl: true,
             gestureHandling: 'cooperative',
             panControl: false,
