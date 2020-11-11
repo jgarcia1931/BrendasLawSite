@@ -35,12 +35,12 @@ $window.on("load", (function() {
     $("#overlayer").delay(500).fadeOut('slow');
     $(".loader").delay(1000).fadeOut('slow');
     portfolioIsotop();
-    // headerSticky();
+    headerSticky();
     ChangeColor();
 
 }));
 $window.on('scroll', function () {
-    // headerSticky();
+    headerSticky();
     skills();
     ChangeColor();
     
