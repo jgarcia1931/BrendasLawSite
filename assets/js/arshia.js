@@ -15,18 +15,18 @@ $(document).ready(function () {
 
     "use strict";
     
-    colorScheme();
+    // colorScheme();
     smoothScroll();
     bgBackground();
     colorFull();
     borderColor();
-    ColorPallet();
+    // ColorPallet();
     swiperSlider();
-    sliderOwlCarousel();
-    typedJS();
-    portfolioPopup();
-    clientCarousel();
-    BlogCarousel();
+    // sliderOwlCarousel();
+    // typedJS();
+    // portfolioPopup();
+    // clientCarousel();
+    // BlogCarousel();
     mapInit();
 
 });
@@ -471,7 +471,7 @@ function BlogCarousel() {
         var lng = myMap.data("location-lng");
         var options = {
             center: new google.maps.LatLng(lat, lng),
-            zoom: 7,
+            zoom: 11,
             mapTypeControl: true,
             gestureHandling: 'cooperative',
             panControl: false,
@@ -602,7 +602,6 @@ function BlogCarousel() {
         var marker1 = new google.maps.Marker({
             position: map.getCenter(),
             title: $('title').text(),
-            icon: myMap.data("location-icon"),
             animation: google.maps.Animation.BOUNCE
         });
         marker1.setMap(map);
