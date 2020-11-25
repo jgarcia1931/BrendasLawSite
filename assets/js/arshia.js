@@ -17,11 +17,11 @@ $(document).ready(function () {
     
     // colorScheme();
     smoothScroll();
-    bgBackground();
-    colorFull();
-    borderColor();
+    // bgBackground();
+    // colorFull();
+    // borderColor();
     // ColorPallet();
-    swiperSlider();
+    // swiperSlider();
     // sliderOwlCarousel();
     // typedJS();
     // portfolioPopup();
@@ -32,17 +32,17 @@ $(document).ready(function () {
 });
 
 $window.on("load", (function() {
-    $("#overlayer").delay(500).fadeOut('slow');
-    $(".loader").delay(1000).fadeOut('slow');
+    // $("#overlayer").delay(500).fadeOut('slow');
+    // $(".loader").delay(1000).fadeOut('slow');
     portfolioIsotop();
-    headerSticky();
-    ChangeColor();
+    // headerSticky();
+    // ChangeColor();
 
 }));
 $window.on('scroll', function () {
-    headerSticky();
-    skills();
-    ChangeColor();
+    // headerSticky();
+    // skills();
+    // ChangeColor();
     
     
 });
