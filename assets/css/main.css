@@ -329,7 +329,7 @@ a, button {
 }
 
 .header-sticky {
-  background-color: #f1f3f6;
+  background-color: rgba(241,243,246,0.8);
   padding: 5px 0;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
   border-bottom: none !important;
@@ -1640,7 +1640,7 @@ canvas.particles-js-canvas-el {
 
   .hero .hero-content h3{
     font-family: 'IBM Plex Sans Condensed', sans-serif !important;
-    color: white;
+    color: white !important;
     margin-bottom: 0 !important;
     font-weight: 400 !important;
     font-size: 20px;
@@ -1670,6 +1670,15 @@ canvas.particles-js-canvas-el {
     left: 0;
     padding-left: 2rem;
   }
+
+  .hero .hero-content h3{
+    font-family: 'IBM Plex Sans Condensed', sans-serif !important;
+    color: white !important;
+    margin-bottom: 0 !important;
+    font-weight: 400 !important;
+    font-size: 20px;
+  }
+
   .about .personal-info span {
     display: block;
   }
